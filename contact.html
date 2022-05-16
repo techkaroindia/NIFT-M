@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>Mimansa Photography website</title>
+<link rel="icon" type="image/x-icon" href="images/logo.jpeg"/>
+</head>
+
+ <style>
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+		
+
+
+
+@keyframes move-down{
+
+  0%{
+    top: 10%;
+  }
+  50%{
+    top: 35%;
+  }
+  100%{
+    top: 50%;
+  }
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  width:500px;
+}
+
+    </style>
+<body>
+
+ <header>
+ 
+ <center><img src="images/logo.jpeg"></center>
+        <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquire now</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" style="width:200px;" placeholder="What are you looking for?">
+                </div>
+            </ul>
+        </nav>
+    </header>
+	
+	
+	<center>
+	<h1>Contact us</h1>
+	
+
+	<div class="container">
+  <form action="#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</center>
+
+
+ 
+
+
+</div>
+<body>
+
+  </body>
+
+</body>
+</html>
